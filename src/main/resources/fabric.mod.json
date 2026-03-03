@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "id": "addon-template",
+  "id": "dupedb",
   "version": "${version}",
-  "name": "Addon Template",
-  "description": "An addon template for Meteor Client addons.",
+  "name": "DupeDB Addon",
+  "description": "Search DupeDB for exploits matching server plugins.",
   "authors": [
-    "seasnail"
+    "jackywacky"
   ],
   "contact": {
     "sources": "https://github.com/MeteorDevelopment/meteor-addon-template"
@@ -14,11 +14,11 @@
   "environment": "client",
   "entrypoints": {
     "meteor": [
-      "com.example.addon.AddonTemplate"
+      "com.jackywacky.dupedb.AddonTemplate"
     ]
   },
   "mixins": [
-    "addon-template.mixins.json"
+    "dupedb.mixins.json"
   ],
   "custom": {
     "meteor-client:color": "225,25,25",
